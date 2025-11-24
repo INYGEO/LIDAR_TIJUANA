@@ -200,7 +200,7 @@
   </button>
 
   <button id="streetViewBtn" style="position: absolute; bottom: 20px; right: 20px; z-index: 1000; background-color: #f8f8f8; border: none; border-radius: 5px; box-shadow: 0px 0px 5px rgba(0,0,0,0.3);">
-    <img src="https://raw.githubusercontent.com/INYGEO/REPORTE/main/resources/street_view_icon.svg" alt="Street View" style="width: 30px; height: auto;">
+    <img src="https://raw.githubusercontent.com/INYGEO/LIDAR_TIJUANA/main/resources/street_view_icon.svg" alt="Street View" style="width: 30px; height: auto;">
   </button>
 
   <div id="tabla-container">
@@ -313,7 +313,7 @@
     }
 
     function cargarExcelDesdeGitHub() {
-      const url = 'https://raw.githubusercontent.com/INYGEO/INMUEBLES_TIJUANA/main/INMUEBLES_15.xlsx';
+      const url = 'https://raw.githubusercontent.com/INYGEO/LIDAR_TIJUANA/main/INMUEBLES_15.xlsx';
       fetch(url)
         .then(response => response.arrayBuffer())
         .then(data => {
@@ -349,7 +349,7 @@
     }
 
     function descargarTabla() {
-      const url = 'https://raw.githubusercontent.com/INYGEO/INMUEBLES_TIJUANA/main/INMUEBLES_15.xlsx';
+      const url = 'https://raw.githubusercontent.com/INYGEO/LIDAR_TIJUANA/main/INMUEBLES_15.xlsx';
       fetch(url)
         .then(response => response.blob())
         .then(blob => {
@@ -368,3 +368,4 @@
   </script>
 </body>
 </html>
+
